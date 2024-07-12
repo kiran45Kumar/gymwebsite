@@ -1,0 +1,1594 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main-section {
+  background: url("images/bg4.jpg");
+  height: 750px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-links ul li {
+  list-style-type: none;
+  margin: 0 10px;
+  cursor: pointer;
+  color: orangered;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.nav-links ul li:hover {
+  color: white;
+  transition: all 0.4s ease;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.nav-logo img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+.nav-buttons button {
+  padding: 5px 10px;
+  background: orangered;
+  border: 1px solid orangered;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.nav-buttons button:hover {
+  background: transparent;
+  color: white;
+  border-color: orangered;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-buttons p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.nav-buttons p:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
+}
+.gym-text {
+  margin: 5%;
+}
+.gym-text h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+.gym-text span {
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 10px 0;
+  color: orangered;
+}
+.gym-text p {
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+.text p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: orange;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+.text button {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: orangered;
+  color: white;
+  border: 1px solid orangered;
+  margin: 10px 0;
+}
+.text button:hover {
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.nav-menu {
+  display: none;
+}
+.button {
+  display: none;
+}
+.close {
+  display: none;
+}
+body {
+  background: #000;
+}
+.title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background: #000;
+  color: orangered;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px 0;
+}
+.about-us-section {
+  margin: 20px 0;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap-reverse;
+}
+.about-us-left img {
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+.about-us-right {
+  flex-basis: 35%;
+}
+.about-us-right h1 {
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+}
+.about-us-right p {
+  font-size: 1.1rem;
+  margin: 20px 0;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: slategray;
+}
+.about-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about-buttons button:first-child {
+  padding: 10px 15px;
+  background: orangered;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid orangered;
+}
+.about-buttons button:last-child {
+  padding: 10px 15px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid orangered;
+}
+.about-buttons button:last-child:hover {
+  background: orangered;
+  transition: all 0.4s ease-in;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.about-text .fa {
+  font-size: 1.2rem;
+}
+.fa-facebook {
+  color: #1877f2;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+.fa-instagram {
+  color: orangered;
+}
+.services-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.services {
+  height: 195px;
+  width: 370px;
+  /* background: rgb(53, 51, 51); */
+  border-radius: 5px;
+  color: white;
+  border: 1px solid orangered;
+  margin: 20px;
+}
+.services-in {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin: 20px;
+}
+.fa-icon {
+  font-size: 2.8rem;
+  cursor: pointer;
+  color: chocolate;
+}
+.services-text h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: orange;
+}
+.services-text h3:hover {
+  color: slategray;
+  transition: all 0.4s ease;
+}
+.services-text p {
+  font-size: 1rem;
+  margin: 10px 0;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  line-height: 1.3;
+  color: slategray;
+}
+.services-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-bottom button {
+  cursor: pointer;
+  border: 1px solid orangered;
+  background: orangered;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+}
+.services-bottom p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.services-bottom p:hover {
+  color: orange;
+  transition: all 0.3s ease-in-out;
+}
+.services-bottom button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+.title-desc p {
+  text-align: center;
+  color: slategray;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+.choose-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 20px;
+}
+.choose h1 {
+  font-size: 1.9rem;
+}
+.choose h1 span {
+  color: orangered;
+}
+.choose p {
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: orange;
+  font-weight: 500;
+}
+.book-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+  gap: 8px;
+}
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.book-button p {
+  color: white;
+  font-size: 1.4rem;
+  margin: 10px 0;
+  letter-spacing: 2px;
+  animation: fadeinout 2s infinite;
+  text-align: center;
+}
+.book-button button {
+  padding: 10px 15px;
+  background: transparent;
+  font-size: 1.5rem;
+  border: 1px solid orangered;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+.book-button button:hover {
+  background: orangered;
+  transition: all 0.3s ease-in-out;
+}
+.primary-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.primary {
+  position: relative;
+  margin: 20px;
+}
+.primary img {
+  height: 180px;
+  width: 370px;
+  cursor: pointer;
+  opacity: 0.6;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  object-fit: cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: white;
+  transition: opacity 0.5s ease;
+}
+.centered {
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  font-weight: 600;
+}
+.centered p {
+  text-align: center;
+}
+.primary:hover .centered {
+  opacity: 1;
+}
+.classes-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.classes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.classes h1 {
+  color: white;
+}
+.classes img {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.team-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.team{
+  width: 350px;
+  height: 500px;
+  box-shadow: 0px 5px 5px 5px;
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+.team img{
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.team:hover .off-centered{
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.team{
+  position: relative;
+}
+.off-centered h1{
+  font-size: 2rem;
+  margin:10px 0;
+}
+.off-centered p{
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  color:blanchedalmond;
+  text-align: center;
+  line-height: 1.8;
+  line-break: anywhere;
+}
+.off-centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+}
+.program-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.programs{
+  height: 260px;
+  width: 300px;
+  background: rgb(43, 40, 40);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+.programs:hover{
+  background: orangered;
+  transition: all 0.3s ease-in;
+}
+.program-text{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.fa-program{
+  font-size: 3rem;
+}
+.program-text h1{
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+.program-text p{
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-break: anywhere;
+  margin: 10px 0;
+}
+.program-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.programs h1{
+  font-size: 1.5rem;
+}
+.blog-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+.blogs{
+  position: relative;
+ color: white;
+ margin: 10px 0;
+}
+.blogs img{
+  height: 500px;
+  width: 450px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.blog-centered{
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 100%;
+}
+.blog-centered h1{
+  font-size: 1.7rem;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+.blog-centered p{
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  margin: 5px 0;
+}
+.blog-centered span{
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.client-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+.title h1{
+  color: white;
+  text-transform: none;
+}
+.clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: #242323;
+  height: 280px;
+  border-radius: 5px;
+  width: 300px;
+}
+.clients .fa-quote-left{
+  font-size: 2.3rem;
+  color: orange;
+  margin: 10px 0;
+}
+.clients p{
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  color: white;
+  text-align: center;
+  line-break: anywhere;
+  margin: 10px;
+}
+.clients span{
+  width: 20%;
+  height: 3px;
+  color: black;
+  background: gray;
+  margin: 10px 0;
+}
+.clients img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.clients h4{
+  margin: 10px 0;
+  font-size: rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: white;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5% 0 0 0;
+  background: rgb(22, 22, 22);
+  border-bottom: 1px solid gray;
+}
+.footer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 30px;
+}
+.footer h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  text-align: center;
+}
+.footer ul li{
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 10px 0;
+  text-align: start;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.footer-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #4ca475;
+  border-radius: 5px;
+  gap: 10px;
+}
+.footer-input input{
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(22, 22, 22);;
+  padding: 15px 0;
+  text-align: center;
+  
+}
+.footer-input input::placeholder{
+  color: white;
+}
+.footer-input button{
+  border: none;
+  outline: none;
+  background: #4ca475;
+  color: white;
+  padding: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.footer p{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  color: white;
+  line-height: 1.5;
+}
+.footer-bottom{
+  background: rgb(22, 22, 22);
+  padding: 0 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-bottom p{
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.logo-div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo-div img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.logo-div h1{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer-icons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.fa-youtube{
+  color: #FF0000;
+}
+.contact-icons{
+  color: red;
+}
+@media screen and (max-width: 1024px) {
+  .title-desc p {
+    font-size: 1.3rem;
+  }
+  .fa-icon {
+    font-size: 2.4rem;
+  }
+  .services {
+    height: 185px;
+  }
+  .services-bottom button {
+    font-size: 1.2rem;
+    padding: 9px 19px;
+  }
+  .services-text h3 {
+    font-size: 1.3rem;
+  }
+  .services-text p {
+    font-size: 15px;
+  }
+  .services-bottom p {
+    font-size: 1rem;
+  }
+  .about-us-right h1 {
+    font-size: 1.4rem;
+  }
+  .about-us-left img {
+    height: 250px;
+  }
+  .about-us-right p {
+    font-size: 0.665rem;
+    line-height: 1.5;
+  }
+  .about-buttons button:first-child {
+    padding: 10px 13px;
+    font-size: 0.915rem;
+  }
+  .about-buttons button:last-child {
+    padding: 10px 13px;
+    font-size: 0.915rem;
+  }
+  .about-text .fa {
+    font-size: 1rem;
+  }
+  .nav-logo p {
+    font-size: 1.2rem;
+  }
+  .nav-logo img {
+    height: 100px;
+    width: 100px;
+  }
+  .nav-links ul li {
+    font-size: 0.665rem;
+  }
+  .nav-buttons p {
+    font-size: 1.1rem;
+  }
+  .nav-buttons button {
+    padding: 5px;
+  }
+  .nav-buttons {
+    gap: 10px;
+  }
+  .nav-links ul {
+    gap: 7px;
+    margin: 0 5px;
+  }
+  .nav-logo {
+    gap: 7px;
+  }
+  .gym-text h1 {
+    font-size: 3.5rem;
+  }
+  .gym-text span {
+    font-size: 3.5rem;
+  }
+  .gym-text p {
+    font-size: 3.5rem;
+  }
+  .text p {
+    font-size: 1.3rem;
+  }
+  .text button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-input{
+    justify-content: center;
+  }
+  .services-in {
+    gap: 20px;
+  }
+  .title-desc p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  .fa-icon {
+    font-size: 2.3rem;
+  }
+  .services {
+    height: 175px;
+  }
+  .services-bottom button {
+    font-size: 1.1rem;
+    padding: 8px 18px;
+  }
+  .services-text h3 {
+    font-size: 1.2rem;
+  }
+  .services-text p {
+    font-size: 14px;
+  }
+  .services-bottom p {
+    font-size: 0.875rem;
+  }
+  .about-us-right h1 {
+    font-size: 1.4rem;
+  }
+  .about-us-right h1 {
+    font-size: 1.3rem;
+  }
+  .about-us-left img {
+    height: 200px;
+  }
+  .about-us-right p {
+    font-size: 0.612rem;
+    line-height: 1.5;
+  }
+  .about-buttons button:first-child {
+    padding: 10px 12px;
+    font-size: 0.875rem;
+  }
+  .about-buttons button:last-child {
+    padding: 10px 12px;
+    font-size: 0.875rem;
+  }
+  .about-text .fa {
+    font-size: 1rem;
+  }
+
+  .close {
+    display: block;
+  }
+  .navbar-section {
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: -800px;
+    background: black;
+    height: max-content;
+    width: 100%;
+  }
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  .nav-links ul {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .button p {
+    padding: 2px 9px;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .close {
+    font-size: 21px;
+    padding: 2px 9px;
+    background: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .nav-links ul li {
+    font-size: 1rem;
+    padding: 10px;
+    animation: fadein 0.4s ease-in;
+  }
+  .nav-buttons {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .nav-menu {
+    display: block;
+    margin: 0 20px;
+  }
+  .fa-bars {
+    color: orangered;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .nav-logo p {
+    font-size: 2rem;
+  }
+  .nav-logo img {
+    height: 130px;
+    width: 130px;
+    object-fit: contain;
+  }
+  .nav-logo {
+    gap: 10px;
+  }
+  .gym-text h1 {
+    font-size: 3.2rem;
+  }
+  .gym-text span {
+    font-size: 3.2rem;
+  }
+  .gym-text p {
+    font-size: 3.2rem;
+  }
+  .text p {
+    font-size: 1.2rem;
+  }
+  .text button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .main-section {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-bottom{
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+   }
+  .title-desc p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .about-us-section {
+    flex-direction: column;
+  }
+  .about-us-right {
+    text-align: center;
+    margin: 0 10px;
+  }
+  .about-buttons {
+    justify-content: center;
+  }
+  .about-text {
+    justify-content: center;
+  }
+  .about-us-right h1 {
+    font-size: 2rem;
+  }
+  .about-us-left img {
+    height: 250px;
+  }
+  .about-us-right p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+  }
+  .about-buttons button:first-child {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+  .about-buttons button:last-child {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+  .about-text {
+    gap: 20px;
+  }
+  .about-text .fa {
+    font-size: 1.3rem;
+  }
+  .nav-links ul li {
+    font-size: 0.91rem;
+  }
+  .button {
+    margin: 1px 10px;
+  }
+  .close {
+    font-size: 18px;
+    padding: 2px 8px;
+  }
+  .button p {
+    font-size: 17px;
+  }
+  .nav-logo p {
+    font-size: 1.6rem;
+  }
+  .nav-logo img {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+  }
+  .nav-logo {
+    gap: 10px;
+  }
+  .gym-text h1 {
+    font-size: 3.1rem;
+  }
+  .gym-text span {
+    font-size: 3.1rem;
+  }
+  .gym-text p {
+    font-size: 3.1rem;
+  }
+  .text p {
+    font-size: 1.1rem;
+  }
+  .text button {
+    padding: 8px 14px;
+    font-size: 0.975rem;
+    letter-spacing: 1px;
+  }
+  .fa-bars {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .title-desc {
+    margin: 10px;
+  }
+  .title-desc p {
+    font-size: 0.875rem;
+    letter-spacing: 3px;
+    line-height: 1.6;
+  }
+  .about-us-right h1 {
+    font-size: 2.3rem;
+  }
+  .about-us-left img {
+    height: 270px;
+  }
+  .about-us-right p {
+    font-size: 0.975rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+  }
+  .about-buttons button:first-child {
+    padding: 11px 16px;
+    font-size: 1.1rem;
+  }
+  .about-buttons button:last-child {
+    padding: 11px 16px;
+    font-size: 1.1rem;
+  }
+  .about-text {
+    gap: 22px;
+  }
+  .about-text .fa {
+    font-size: 1.3rem;
+  }
+  .nav-links ul li {
+    font-size: 0.81rem;
+  }
+  .button {
+    margin: 0 10px;
+  }
+  .close {
+    font-size: 17px;
+    padding: 2px 8px;
+  }
+  .button p {
+    font-size: 17px;
+  }
+  .nav-logo p {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  .nav-logo img {
+    height: 110px;
+    width: 110px;
+    object-fit: contain;
+  }
+  .nav-logo {
+    gap: 10px;
+  }
+  .gym-text {
+    text-align: center;
+  }
+  .gym-text h1 {
+    font-size: 2.4rem;
+  }
+  .gym-text span {
+    font-size: 2.4rem;
+  }
+  .gym-text p {
+    font-size: 2.4rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+  .text button {
+    padding: 8px 13px;
+    background: transparent;
+    font-size: 0.975rem;
+    letter-spacing: 1px;
+  }
+  .text button:hover {
+    background: orangered;
+    transition: all 0.5s ease-in;
+  }
+  .fa-bars {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .title-desc p {
+    font-size: 0.775rem;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    color: slategray;
+  }
+  .about-us-right h1 {
+    font-size: 2.1rem;
+    line-height: 1.5;
+  }
+  .about-us-left img {
+    height: 210px;
+  }
+  .about-us-right p {
+    font-size: 0.775rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+  }
+  .about-buttons button:first-child {
+    padding: 10px 17px;
+    font-size: 1rem;
+  }
+  .about-buttons button:last-child {
+    padding: 10px 17px;
+    font-size: 1rem;
+  }
+  .about-text {
+    gap: 22px;
+  }
+  .about-text .fa {
+    font-size: 1.2rem;
+  }
+  .nav-links ul li {
+    font-size: 0.81rem;
+  }
+  .button {
+    margin-top: -3%;
+    margin-left: 5%;
+  }
+  .close {
+    font-size: 21px;
+    padding: 2px 10px;
+  }
+  .button p {
+    font-size: 17px;
+  }
+  .nav-logo p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  .nav-logo img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+  }
+  .gym-text h1 {
+    font-size: 2.2rem;
+  }
+  .gym-text span {
+    font-size: 2.2rem;
+  }
+  .gym-text p {
+    font-size: 2.2rem;
+  }
+  .text p {
+    font-size: 0.975rem;
+  }
+  .text button {
+    padding: 8px 12px;
+    background: transparent;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+  }
+  .text button:hover {
+    background: orangered;
+    transition: all 0.5s ease-in;
+  }
+  .fa-bars {
+    font-size: 1.7rem;
+  }
+  .main-section {
+    height: 450px;
+  }
+  .classes img {
+    height: 230px;
+    width: 300px;
+  }
+  @media screen and (max-width: 430px) {
+   .footer{
+    align-items: center;
+   }
+   .footer ul li{
+    text-align: center;
+   }
+   .footer p{
+    text-align: center;
+   }
+   .footer-bottom{
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+   }
+   
+    .classes img {
+      height: 200px;
+      width: 280px;
+      margin: 10px 0;
+    }
+    .primary img {
+      width: 100%;
+    }
+    .title-desc p {
+      font-size: 0.675rem;
+      letter-spacing: 3px;
+      line-height: 2.1;
+      color: slategray;
+    }
+    .about-us-right h1 {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    .about-us-left img {
+      height: 230px;
+    }
+    .about-us-right p {
+      font-size: 0.775rem;
+      line-height: 1.9;
+      letter-spacing: 3px;
+    }
+    .about-buttons button:first-child {
+      padding: 5px 10px;
+      font-size: 0.875rem;
+    }
+    .about-buttons button:last-child {
+      padding: 5px 10px;
+      font-size: 0.875rem;
+    }
+    .about-text {
+      gap: 22px;
+    }
+    .about-text .fa {
+      font-size: 1rem;
+    }
+    .nav-links ul {
+      margin-bottom: 20px;
+    }
+    .nav-links ul li {
+      font-size: 0.69rem;
+      padding: 6px;
+    }
+    .button {
+      margin-top: -3%;
+      margin-left: 5%;
+    }
+    .close {
+      font-size: 21px;
+      padding: 2px 10px;
+    }
+    .button p {
+      font-size: 17px;
+    }
+    .nav-logo p {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+    }
+    .nav-logo img {
+      height: 70px;
+      width: 70px;
+      object-fit: contain;
+    }
+    .gym-text h1 {
+      font-size: 1.8rem;
+    }
+    .gym-text span {
+      font-size: 1.8rem;
+    }
+    .gym-text p {
+      font-size: 1.8rem;
+    }
+    .text p {
+      font-size: 0.965rem;
+    }
+    .text button {
+      padding: 8px 11px;
+      background: transparent;
+      font-size: 0.811rem;
+      letter-spacing: 1px;
+    }
+    .text button:hover {
+      background: orangered;
+      transition: all 0.5s ease-in;
+    }
+    .fa-bars {
+      font-size: 1.5rem;
+    }
+    .main-section {
+      height: 350px;
+    }
+    .blogs img{
+      height: 500px;
+      width: 300px;
+    }
+    .blog-centered h1{
+      font-size: 1.5rem;
+    }
+    .blog-centered p{
+      font-size: 1rem;
+      font-weight: 100;
+    }
+    .blog-centered span{
+      font-size: 13px;
+      font-weight: 100;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .team img{
+      width: 250px;
+      height: 300px;
+    }
+    .off-centered{
+      width: fit-content;
+    }
+    .off-centered h1{
+      font-size: 1.5rem;
+    }
+    .off-centered p{
+      font-size: 0.555rem;
+    }
+    .title-desc p {
+      font-size: 0.575rem;
+      letter-spacing: 3px;
+      line-height: 2.1;
+      color: slategray;
+    }
+    .services {
+      height: 250px;
+    }
+    .services-in {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .services-text {
+      text-align: center;
+    }
+
+    .services-bottom {
+      justify-content: center;
+    }
+    .services-bottom button {
+      display: none;
+    }
+    .about-us-right h1 {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    .about-us-left img {
+      height: 150px;
+    }
+    .about-us-right p {
+      font-size: 0.685rem;
+      line-height: 1.8;
+      letter-spacing: 3px;
+    }
+    .about-buttons button:first-child {
+      padding: 5px 10px;
+      font-size: 0.775rem;
+    }
+    .about-buttons button:last-child {
+      padding: 5px 10px;
+      font-size: 0.775rem;
+    }
+    .about-text {
+      gap: 22px;
+    }
+    .about-text .fa {
+      font-size: 1rem;
+    }
+    .nav-links ul {
+      margin-bottom: 20px;
+    }
+    .nav-links ul li {
+      font-size: 0.69rem;
+      padding: 6px;
+    }
+    .button {
+      margin-top: -7%;
+    }
+    .close {
+      font-size: 15px;
+      padding: 2px 8px;
+    }
+    .nav-logo p {
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    .nav-logo img {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+    }
+    .gym-text {
+      margin: 10% 0;
+    }
+    .gym-text h1 {
+      font-size: 1.5rem;
+    }
+    .gym-text span {
+      font-size: 1.5rem;
+    }
+    .gym-text p {
+      font-size: 1.5rem;
+    }
+    .text p {
+      font-size: 0.865rem;
+    }
+    .text button {
+      padding: 8px 10px;
+      background: transparent;
+      font-size: 0.711rem;
+      letter-spacing: 1px;
+    }
+    .text button:hover {
+      background: orangered;
+      transition: all 0.5s ease-in;
+    }
+    .fa-bars {
+      font-size: 1.5rem;
+    }
+    .main-section {
+      height: 350px;
+    }
+    .fa-icon {
+      font-size: 2.9rem;
+    }
+    .services {
+      height: 260px;
+    }
+    .services-text h3 {
+      font-size: 1.5rem;
+    }
+    .services-text p {
+      font-size: 17px;
+    }
+    .services-bottom p {
+      font-size: 1rem;
+    }
+    
+  }
+  @media screen and (max-width: 325px) {
+    .title-desc p {
+      font-size: 10px;
+      letter-spacing: 3px;
+      line-height: 1.8;
+      color: slategray;
+      line-break: anywhere;
+    }
+    .fa-icon {
+      font-size: 2.6rem;
+    }
+    .services {
+      height: 270px;
+    }
+    .services-text h3 {
+      font-size: 1.3rem;
+    }
+    .services-text p {
+      font-size: 13px;
+      line-height: 2;
+    }
+    .services-bottom p {
+      font-size: 1rem;
+    }
+    .nav-logo p {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+    .nav-logo img {
+      height: 60px;
+      width: 60px;
+      object-fit: contain;
+    }
+    .gym-text h1 {
+      font-size: 1.2rem;
+    }
+    .gym-text span {
+      font-size: 1.2rem;
+    }
+    .gym-text p {
+      font-size: 1.2rem;
+    }
+    .text p {
+      font-size: 0.912rem;
+    }
+    .text button {
+      padding: 8px 11px;
+      background: transparent;
+      font-size: 0.811rem;
+      letter-spacing: 1px;
+    }
+    .text button:hover {
+      background: orangered;
+      transition: all 0.5s ease-in;
+    }
+    .fa-bars {
+      font-size: 1.3rem;
+    }
+    .main-section {
+      height: 350px;
+    }
+  }
+}
